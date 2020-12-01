@@ -6,9 +6,6 @@ public class Bird extends Animal{
         this.fly = fly;
     }
 
-    public void fly(){
-        System.out.println("Flying...");
-    }
     public void nesting(){
         System.out.println("Nesting...");
     }

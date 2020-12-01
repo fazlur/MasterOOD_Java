@@ -5,14 +5,12 @@ public class Zoo {
         shark1.swim();
         shark1.eat();
 
-        Bird eagle1 = new Bird(3, true, 30, true);
-        eagle1.fly();
-        eagle1.nesting();
+       Chicken chick1 = new Chicken(1, false, 1, false);
+       chick1.fly();
 
-        Animal lion1 = new Animal(12, true, 120);
-        Animal lion2 = new Animal(8, false, 99);
-        lion1.eat();
-        lion2.sleep();
+    Sparrow sparrow = new Sparrow(1, true, 2, true);
+    sparrow.fly();
+
     }
 
 
