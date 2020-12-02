@@ -9,4 +9,9 @@ public class Bird extends Animal{
     public void nesting(){
         System.out.println("Nesting...");
     }
+
+    @Override
+    public void move() {
+        System.out.println("Flapping wings...");
+    }
 }
