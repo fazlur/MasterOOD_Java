@@ -1,8 +1,8 @@
-package employeeManagement;
+package employeeManagement.database;
 
 public class DatabaseConnectionManager {
 
-    public DatabaseConnectionManager getManagerInstance(){
+    public  void getManagerInstance(){
         System.out.println("Don't know how to get DatabaseConnectionManager instance yet...");
     }
 
