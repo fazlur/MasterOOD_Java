@@ -2,7 +2,7 @@ package employeeManagement;
 
 public class DatabaseConnectionManager {
 
-    public void getManagerInstance(){
+    public DatabaseConnectionManager getManagerInstance(){
         System.out.println("Don't know how to get DatabaseConnectionManager instance yet...");
     }
 
