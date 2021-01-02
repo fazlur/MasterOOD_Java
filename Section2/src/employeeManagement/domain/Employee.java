@@ -1,6 +1,6 @@
 package employeeManagement.domain;
 
-public class Employee {
+abstract public class Employee {
     /* Making the variables private (information hiding)
     this prevents clients of the object from changing it's
      state directly*/
@@ -16,6 +16,8 @@ public class Employee {
         this.department = department;
         this.working = working;
     }
+
+    public abstract void performDuties();
 
     /* Overriding toString method to be able to print
     an instance of this object more readable */

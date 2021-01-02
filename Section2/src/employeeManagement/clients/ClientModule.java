@@ -9,10 +9,6 @@ public class ClientModule {
 
     //Creating main method
     public static void main(String[] args) {
-        //Instantiating Employee object
-        Employee mike = new Employee(001, "Mike", "Accounting", true);
-        ClientModule.hireNewEmployee(mike);
-        printEmployeeReport(mike, FormatType.XML);
 
     }
 
